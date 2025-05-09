@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Case Gamescom LATAM | Ingrid Gonçalves</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(120deg, #0f0f0f, #1a1a1a);
+      color: #f0f0f0;
+      font-family: 'Orbitron', sans-serif;
+      padding-top: 100px;
+      line-height: 1.6;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(10, 10, 10, 0.7);
+      z-index: 10;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #ff66cc;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #66ffcc;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.03);
+      border: 1px solid #333;
+      border-radius: 16px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #ff66cc;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 10px #ff66cc;
+    }
+
+    .info {
+      color: #999;
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      color: #66ffcc;
+      margin-top: 2rem;
+      font-size: 1.3rem;
+    }
+
+    p, li {
+      margin-top: 0.5rem;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+    }
+
+    ul li {
+      list-style: disc;
+      margin-bottom: 0.4rem;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 2rem;
+      text-align: left;
+      color: #999;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .back-link:hover {
+      color: #66ffcc;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .images img {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid #333;
+      transition: transform 0.3s ease;
+    }
+
+    .images img:hover {
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ingrid</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="cases.html">Cases</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>🎮 Gamescom LATAM — Curadoria Estratégica de Influenciadores</h1>
+    <div class="info">
+      <strong>Anos:</strong> 2022, 2023, 2024<br>
+      <strong>Evento:</strong> Gamescom LATAM<br>
+      <strong>Função:</strong> Curadoria de influenciadores para ativações, cobertura e experiências
+    </div>
+
+    <h2>Objetivo</h2>
+    <p>Conectar o maior evento de games do mundo com a comunidade brasileira de criadores de conteúdo, gerando buzz, engajamento e experiências autênticas com o público gamer.</p>
+
+    <h2>O que eu fiz</h2>
+    <p>Por três edições consecutivas, atuei na seleção e relacionamento com influenciadores do universo gamer para a Gamescom LATAM. Fiz a curadoria completa com base em fit de público, relevância e estilo de conteúdo, além de gerenciar convites, coordenação de presença no evento e suporte durante as ativações.</p>
+
+    <h2>Destaque especial</h2>
+    <p>Em 2023, credenciei um influenciador em ascensão que, neste ano, voltou à Gamescom para realizar seu próprio Meet & Greet oficial. Ver essa trajetória reforça o impacto da curadoria bem feita e da valorização de talentos em crescimento.</p>
+
+    <h2>Resultado</h2>
+    <ul>
+      <li>Participação de dezenas de influenciadores relevantes da cena gamer</li>
+      <li>Cobertura ao vivo, collabs e conteúdos orgânicos com publishers e estúdios</li>
+      <li>Fortalecimento do posicionamento da Gamescom como referência para criadores e marcas no Brasil</li>
+      <li>Experiências inesquecíveis para o público e creators</li>
+    </ul>
+
+    <h2>Imagens do Evento</h2>
+    <div class="images">
+      <img src="https://i.pinimg.com/736x/38/17/e7/3817e70fe170016c203833c68304d614.jpg" alt="Imagem 1 do case Gamescom">
+      <img src="https://i.pinimg.com/736x/7c/4a/2a/7c4a2ad7ac0814d7c307160d09a90817.jpg" alt="Imagem 2 do case Gamescom">
+      <img src="https://i.pinimg.com/736x/60/1e/73/601e73a2a8050310faf6e1b7f5e52043.jpg" alt="Imagem 3 do case Gamescom">
+    </div>
+
+    <a href="cases.html" class="back-link">← Voltar para todos os cases</a>
+  </div>
+</body>
+</html>

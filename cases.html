@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cases | Ingrid</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(circle at top left, #0f0f0f, #1a1a1a);
+      color: #f0f0f0;
+      font-family: 'Orbitron', sans-serif;
+      min-height: 100vh;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(10, 10, 10, 0.7);
+      z-index: 10;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #ff66cc;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #66ffcc;
+    }
+
+    .content {
+      margin-top: 120px;
+      padding: 2rem;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #ff66cc;
+      text-shadow: 0 0 10px #ff66cc;
+      margin-bottom: 2rem;
+    }
+
+    .case {
+      background: rgba(255, 102, 204, 0.05);
+      border: 1px solid #ff66cc66;
+      padding: 1.5rem;
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+      margin-bottom: 2rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .case:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 0 20px #ff66cc44;
+    }
+
+    .case h3 {
+      color: #66ffcc;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .case small {
+      color: #aaa;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .case p {
+      font-size: 1rem;
+      color: #cccccc;
+      margin-bottom: 0.75rem;
+    }
+
+    .ver-mais {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid #66ffcc;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #66ffcc;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .ver-mais:hover {
+      background: #66ffcc;
+      color: #0f0f0f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ingrid</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="cases.html">Cases</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Cases e Projetos</h2>
+
+    <div class="case">
+      <h3>🎧 Campanha Nacional com AIWA</h3>
+      <small>Ano: 2024 | Marca: AIWA | Função: Curadoria de influenciadores + gestão de campanha</small>
+      <p>Campanha para lançamento da nova linha de caixas de som com foco em awareness e conversão entre o público jovem e digital.</p>
+      <p><strong>Resultado:</strong> Estoque esgotado, +5.000 cliques com 5 influenciadores e alto engajamento nas redes.</p>
+      <a class="ver-mais" href="case-aiwa.html">Ver mais</a>
+    </div>
+
+    <div class="case">
+      <h3>💐 Lançamento da linha Bloom — MyBest</h3>
+      <small>Ano: 2024 | Marca: MyBest | Função: Estratégia + curadoria de microinfluenciadores</small>
+      <p>Desenvolvimento de estratégia de influência com microcreators para apresentar a linha Bloom e fortalecer a comunidade da marca.</p>
+      <p><strong>Resultado:</strong> Conteúdos UGC espontâneos, crescimento orgânico do Instagram e parcerias futuras cultivadas.</p>
+      <a class="ver-mais" href="case-mybest.html">Ver mais</a>
+    </div>
+
+    <div class="case">
+      <h3>🎮 Gamescom LATAM — Curadoria Estratégica</h3>
+      <small>Anos: 2022-2024 | Evento: Gamescom LATAM | Função: Curadoria de influenciadores</small>
+      <p>Seleção e gestão de presença de influenciadores gamers em ativações do maior evento de games do mundo.</p>
+      <p><strong>Resultado:</strong> Cobertura ao vivo, experiências imersivas e posicionamento fortalecido da marca no Brasil.</p>
+      <a class="ver-mais" href="case-gamescom.html">Ver mais</a>
+    </div>
+
+  </section>
+</body>
+</html>

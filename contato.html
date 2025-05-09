@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato | Ingrid Gonçalves</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(circle at top left, #0f0f0f, #1a1a1a);
+      color: #f0f0f0;
+      font-family: 'Orbitron', sans-serif;
+      min-height: 100vh;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(10, 10, 10, 0.7);
+      z-index: 10;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #ff66cc;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #66ffcc;
+    }
+
+    .content {
+      margin-top: 120px;
+      padding: 2rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #ff66cc;
+      text-shadow: 0 0 10px #ff66cc;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, textarea {
+      background: rgba(255, 102, 204, 0.1);
+      border: 1px solid #ff66cc;
+      padding: 1rem;
+      border-radius: 8px;
+      color: #f0f0f0;
+      font-size: 1rem;
+      outline: none;
+      transition: background-color 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      background-color: rgba(255, 102, 204, 0.3);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+
+    button {
+      background: #ff66cc;
+      color: #fff;
+      font-size: 1rem;
+      padding: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s, background-color 0.3s;
+    }
+
+    button:hover {
+      transform: translateY(-6px);
+      background-color: #66ffcc;
+    }
+
+    button:active {
+      transform: translateY(2px);
+      background-color: #ff66cc;
+    }
+
+    .contact-info {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .contact-info p {
+      font-size: 1rem;
+      color: #cccccc;
+      margin-bottom: 0.5rem;
+    }
+
+    .social-icons a {
+      margin: 0 0.5rem;
+      color: #ff66cc;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #66ffcc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ingrid</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="cases.html">Cases</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Me chama pra trabalharmos juntos</h2>
+
+    <form action="https://formsubmit.co/ingrid.adtr@gmail.com" method="POST">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required placeholder="Seu nome" />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required placeholder="Seu e-mail" />
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required placeholder="Sua mensagem..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="contact-info">
+      <p>Se preferir, entre em contato pelas redes sociais:</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ingrid.gonc" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/ingrid-gon%C3%A7alves-44a16b11a/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

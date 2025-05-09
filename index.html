@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Ingrid Gonçalves</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-image: url('file:///C:/Users/ingri/Downloads/Design%20sem%20nome%20-%202025-05-08T174423.662.gif'); /* Coloque o caminho para a imagem */
+      background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      color: #f0f0f0;
+      font-family: 'Orbitron', sans-serif;
+      overflow: hidden;
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(10, 10, 10, 0.7);
+      z-index: 10;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #ff66cc;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #66ffcc;
+    }
+
+    .intro {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+
+    .intro h1 {
+      font-size: 3rem;
+      color: #ff66cc;
+      text-shadow: 0 0 10px #ff66cc, 0 0 20px #ff66cc;
+    }
+
+    .intro p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #66ffcc;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ingrid</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="cases.html">Cases</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <br>
+    <p>Portfólio de Marketing de Influência, Curadoria & Eventos</p>
+  </section>
+</body>
+</html>
